@@ -33,7 +33,7 @@ public class Produto {
     @Column(name = "descricao_produto")
     private String descricao;
 
-    @Column
+    @Column(name = "data_de_lancamento")
     private LocalDate dataDeLancamento;
 
     @ManyToOne
